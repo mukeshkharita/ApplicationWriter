@@ -7,7 +7,7 @@
 		<div id="main">
 			<h1>Application Writer</h1>
 			<div id="formdiv">
-				<form id="mainform" action="javaScript:funcValidate()">
+				<form id="mainform" action="javaScript:funcValidate()" method="get">
 
 					<div id="name">
 					<br>
@@ -45,5 +45,37 @@
 				</form>
 			</div>
 		</div>
+		<div id="second">
+			<h1>PDF generator</h1>
+			<div id="content">
+			To<br>
+			<span id="space"></span>The HOD<br>
+			<span id="space"></span>National Institute of Technology,Hamirpur<br>
+			<span id="space"></span>	Hamirpur Himachal Pradesh<br>
+			Subject:Blah Blah <br>
+			Blah Blah Blah Blah Blah Blah Blah<br>
+			Blah Blah Blah Blah Blah Blah Blah<br>
+			Blah Blah Blah Blah Blah Blah Blah<br>
+			Blah Blah Blah Blah Blah Blah Blah<br>
+			Blah Blah Blah Blah Blah Blah Blah<br>
+			Blah Blah Blah Blah Blah Blah Blah<br>
+			Blah Blah Blah Blah Blah Blah Blah<br>
+			Blah Blah Blah Blah Blah Blah Blah<br>
+			Blah Blah Blah Blah Blah Blah Blah<br>
+			Blah Blah Blah Blah Blah Blah Blah<br>
+			Blah Blah Blah Blah Blah Blah Blah<br>
+			The Information regarding Permission is:<br>
+			Name:<span id="space2"></span><br>
+			Venue:<span id="space3"></span><br>
+			Club:<span id="space4"></span><br>
+			Purpose:<span id="space5"></span><br>
+			Date:<span id="space6"></span><br>
+			Time:<span id="space7"></span><br>
+			<span id="space"></span>Yours Sincerely<br>
+			<span id="space"></span>Name:<span id="space2"></span><br>
+		</div>
+		<input type="button" value="Print " onclick="javascript:printDiv('content')" id="print"/>
+		</div>
+		
 		<script src="validate.js"></script>
 	</body>
